@@ -46,7 +46,7 @@ struct Select {
   std::vector<std::string> &options;
 };
 
-const char *MEASURE = "measurement", *HUMIDITY = "humidity", *SOIL2 = "soil";
+const char *MEASURE = "measurement", *HUMIDITY = "humidity", *SOIL2 = "moisture";
 Sensor BATT{"batt", "Battery", "%", "battery", NULL, MEASURE, 0, true};
 Sensor TEMP{"temp", "Temperature", "°C", "temperature", NULL, MEASURE, 1, false};
 Sensor LUMI{"lumi", "Illuminance", "lx", "illuminance", NULL, MEASURE, 0, false};
